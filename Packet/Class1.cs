@@ -8,9 +8,11 @@ namespace PacketConnector
 {
     public enum PacketType
     {
-        Registration,
         Chat,
-        CloseConnection
+        CloseConnection,
+        Login,
+        Vector, 
+        Registration
     }
 
     [Serializable]
