@@ -12,7 +12,8 @@ namespace PacketConnector
         CloseConnection,
         Login,
         Vector, 
-        Registration
+        Registration,
+        getNews
     }
 
     [Serializable]
