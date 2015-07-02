@@ -45,7 +45,6 @@ namespace PacketConnector
             this.packetType = p.packetType;
         }
 
-
         public byte[] ToBytes()
         {
             BinaryFormatter bf = new BinaryFormatter();
